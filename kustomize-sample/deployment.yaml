@@ -14,6 +14,7 @@ spec:
     spec:
       containers:
       - image: ghcr.io/kmaster8/sample:1.0
+        imagePullPolicy: Always
         name: sample
         ports:
         - containerPort: 5000
